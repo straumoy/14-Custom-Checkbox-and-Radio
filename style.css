@@ -40,3 +40,12 @@ body {
     transform: rotate(45deg);
     opacity: 0;
 }
+
+/*Checked state for checkbox*/
+.custom input[type="checkbox"]:checked + .checkmark {
+    background-color: #2196f3;
+    border-color: #2196f3;
+}
+.custom input[type="checkbox"]:checked + .checkmark::after {
+    opacity: 1;
+}
