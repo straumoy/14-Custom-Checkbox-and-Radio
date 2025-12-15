@@ -49,3 +49,14 @@ body {
 .custom input[type="checkbox"]:checked + .checkmark::after {
     opacity: 1;
 }
+
+/*Custom radio style*/
+.radiomark {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #555;
+    border-radius: 8px;
+    margin-right: 8px;
+    position: relative;
+    transition: transform 0.3s ease;
+}
