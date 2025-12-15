@@ -1,1 +1,13 @@
 /* style.css file */
+html,
+body {
+    margin: 20px;
+}
+/*General label styling*/
+.custom {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 8px 0;
+}
