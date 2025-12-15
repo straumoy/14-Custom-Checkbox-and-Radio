@@ -26,3 +26,17 @@ body {
     position: relative;
     transition: all 0.3s ease;
 }
+
+/*Custom check symbol*/
+.checkmark::after {
+    content: "";
+    position: absolute;
+    left: 4px;
+    top: 0px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px o;
+    transform: rotate(45deg);
+    opacity: 0;
+}
