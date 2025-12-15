@@ -74,3 +74,11 @@ body {
     transform: scale(0);
     transition: transform 0.2s ease;
 }
+
+/*Checked state for radio*/
+.custom input[type="radio"]:checked + .radiomark {
+    border-color: #2196f3;
+}
+.custom input[type="radio"]:checked + .radiomark::after {
+    transform: scale(1);
+}
