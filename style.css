@@ -11,3 +11,9 @@ body {
     font-size: 16px;
     margin: 8px 0;
 }
+
+/*Hide native input*/
+.custom input {
+    display: none;
+}
+
